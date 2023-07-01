@@ -11,9 +11,9 @@ const SocialLink = ({ href, src, className }: SocialLinkProps) => {
 
     
     return (
-        <div className="mr-2">
+        <div className="w-9 h-9 mr-2">
             <Link href={href}>
-                <Image src={src} width='30' height='30' alt={""}/>
+                <Image src={src} width="40" height="40" alt={""}/>
             </Link>
         </div>
     );

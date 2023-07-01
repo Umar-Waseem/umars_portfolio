@@ -6,19 +6,19 @@ import Image from "next/image";
 
 const App = () => {
   return (
-    <div className="flex lg:flex-row flex-col justify-center items-center lg:text-left text-center min-h-screen bg-gray-900 text-white">
+    <div className="flex lg:flex-row flex-col justify-center items-center lg:text-left text-center min-h-screen bg-gradient-to-r from-black to-blue-900 text-white">
       <div className="flex flex-col lg:mr-10">
 
-        <div className="text-2xl">Muhammad Umar Waseem</div>
-        <div className="mb-4 text-gray-500">Self Taught Software Dev</div>
-        <div className="flex lg:items-start items-center lg:justify-start justify-center mb-4 text-gray-500">
+        <div className="text-4xl">Muhammad Umar Waseem</div>
+        <div className="mb-4 text-2xl text-gray-500">Self Taught Software Dev</div>
+        <div className="flex text-2xl lg:items-start items-center lg:justify-start justify-center mb-4 text-gray-500">
           Checkout my projects at: &nbsp;
           <SocialLink
             href="https://github.com/Umar-Waseem"
             src="/images/github.svg"
           />
         </div>
-        <div className="text-2xl font-bold mb-8">
+        <div className="text-3xl font-bold mb-8">
           This website is under construction
         </div>
         <div className="flex flex-row mb-8 lg:justify-start justify-center lg:items-start items-center">
@@ -49,8 +49,8 @@ const App = () => {
         <Image
           src="https://www.animatedimages.org/data/media/695/animated-under-construction-image-0035.gif"
           alt=""
-          width="200"
-          height="200"
+          width="350"
+          height="350"
         />
       </div>
     </div>
