@@ -1,7 +1,12 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Lato } from 'next/font/google';
+import Head from 'next/head';
 
-const inter = Inter({ subsets: ['latin'] })
+const myFont = Lato({
+  display: 'swap',
+  weight: ["400", "700"],
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: 'Umar Waseem',
@@ -15,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={myFont.className}>{children}</body>
     </html>
   )
 }

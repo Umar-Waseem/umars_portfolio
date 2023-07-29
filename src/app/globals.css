@@ -2,26 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: "black";
+    /* overflow: hidden; */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.gradient-text {
+    background: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.gradient-shadow {
+    box-shadow: 0px 11px 400px 200px rgba(249,212,35,0.19);
+    -webkit-box-shadow: 0px 11px 400px 200px rgba(249,212,35,0.19);
+    -moz-box-shadow: 0px 11px 400px 200px rgba(249,212,35,0.19);
+}
+
+.scrollSnap{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+
 }
