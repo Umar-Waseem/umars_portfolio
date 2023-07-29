@@ -17,12 +17,12 @@
 }
 
 .gradient-shadow {
-    box-shadow: 0px 11px 400px 200px rgba(249,212,35,0.19);
-    -webkit-box-shadow: 0px 11px 400px 200px rgba(249,212,35,0.19);
-    -moz-box-shadow: 0px 11px 400px 200px rgba(249,212,35,0.19);
+    box-shadow: 0px 11px 400px 200px rgba(249, 212, 35, 0.19);
+    -webkit-box-shadow: 0px 11px 400px 200px rgba(249, 212, 35, 0.19);
+    -moz-box-shadow: 0px 11px 400px 200px rgba(249, 212, 35, 0.19);
 }
 
-.scrollSnap{
+.scrollSnap {
     scroll-snap-align: start;
     scroll-snap-stop: always;
     scroll-snap-type: y mandatory;
@@ -31,11 +31,71 @@
 }
 
 
-.theContainer{
+.theContainer {
     scroll-snap-type: y mandatory;
 }
 
-.section{
+.section {
     scroll-snap-align: start;
     scroll-snap-stop: always;
 }
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 2px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Show the tooltip text when you hover over the container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+/* Button styles */
+.getInTouchButton,
+.meetingButton {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Blue Button */
+.getInTouchButton {
+    border: 1px solid #3b565f;
+}
+
+.getInTouchButton:hover {
+    background-color: #00BFFF;
+}
+
+/* Green Button */
+.meetingButton {
+    background-color: #16a085;
+}
+

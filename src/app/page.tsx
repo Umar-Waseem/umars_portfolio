@@ -12,12 +12,12 @@ import ContactSection from "@/sections/ContactSection";
 const App = () => {
   return (
     <>
-      <MainSection/>
+      {/* <MainSection/> */}
       <AboutSection />
-      <ExperienceSection />
       <ProjectSection />
-      <SkillsSection />
-      <EducationSection />
+      <ExperienceSection />
+      {/* <SkillsSection /> */}
+      {/* <EducationSection /> */}
       <ContactSection />
     </>
   );

@@ -9,7 +9,7 @@ const socialLinksList: SocialModel[] = [
     new SocialModel('Medium', SocialLinks.medium, ImageLinks.mediumIcon),
     new SocialModel('Email', SocialLinks.email, ImageLinks.gmailIcon),
     new SocialModel('Upwork', SocialLinks.upwork, ImageLinks.upworkIcon),
-    new SocialModel('YouTube', SocialLinks.youtube, ImageLinks.instaIcon),
+    new SocialModel('YouTube', SocialLinks.youtube, ImageLinks.youtubeIcon),
 ];
 
 export default socialLinksList;
