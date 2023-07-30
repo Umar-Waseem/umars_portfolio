@@ -1,10 +1,10 @@
 import './globals.css'
-import { Lato } from 'next/font/google';
+import { Raleway } from 'next/font/google';
 import Head from 'next/head';
 
-const myFont = Lato({
+const myFont = Raleway({
   display: 'swap',
-  weight: ["400", "700"],
+  weight: ["400"],
   subsets: ['latin'],
 })
 

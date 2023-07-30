@@ -1,3 +1,5 @@
+
+
 import React, { ReactNode } from 'react';
 import Image from 'next/image';
 import socialLinksList from "../constants/socials_list";
@@ -17,10 +19,6 @@ export default function AboutSection() {
       </div>
     ));
   }
-
-
-
-
 
   return (
     <main className='about-section flex flex-col justify-center h-screen p-10 bg-black lg:items-start items-center text-white theContainer section'>

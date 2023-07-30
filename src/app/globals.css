@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
     background-color: "black";
     /* overflow: hidden; */
 }
@@ -98,4 +98,3 @@
 .meetingButton {
     background-color: #16a085;
 }
-
