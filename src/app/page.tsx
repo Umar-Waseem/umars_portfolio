@@ -14,6 +14,8 @@ const App = () => {
   return (
     <>
       {/* <MainSection/> */}
+      {/* fixed nav bar */}
+
       <AboutSection />
       <IntroSection />
       <ProjectSection />
