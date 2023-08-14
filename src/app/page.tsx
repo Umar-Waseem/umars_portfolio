@@ -8,12 +8,14 @@ import SkillsSection from "@/sections/SkillsSection";
 import EducationSection from "@/sections/EducationSection";
 import AboutSection from "@/sections/AboutSection";
 import ContactSection from "@/sections/ContactSection";
+import IntroSection from "@/sections/IntroSection";
 
 const App = () => {
   return (
     <>
       {/* <MainSection/> */}
       <AboutSection />
+      <IntroSection />
       <ProjectSection />
       <ExperienceSection />
       {/* <SkillsSection /> */}

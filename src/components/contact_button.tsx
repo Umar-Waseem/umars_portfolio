@@ -13,9 +13,9 @@ function ContactButton() {
         window.location.href = "https://topmate.io";
     };
     return (
-        <div className='flex lg:flex-row flex-col mt-6 lg:items-start items-center'>
-            <button onClick={handleGetInTouch} className="getInTouchButton mr-2 mb-4">Get In Touch</button>
-            <button onClick={handleBookMeeting} className="meetingButton">Book A Meeting</button>
+        <div className='flex lg:flex-row flex-col mt-10 lg:items-start items-center'>
+            <button onClick={handleBookMeeting} className="meetingButton mr-2 mb-4">Book A Meeting</button>
+            <button onClick={handleGetInTouch} className="getInTouchButton">Get In Touch</button>
         </div>
     );
 }

@@ -73,6 +73,18 @@
 }
 
 
+.custom-button {
+    display: inline-block;
+    padding: 12px 22px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #9b6b1f;
+
+
+}
+
 
 /* Button styles */
 .getInTouchButton,
@@ -91,10 +103,10 @@
 }
 
 .getInTouchButton:hover {
-    background-color: #00BFFF;
+    background-color: green;
 }
 
 /* Green Button */
 .meetingButton {
-    background-color: #16a085;
+    background-color: #9b6b1f;
 }
