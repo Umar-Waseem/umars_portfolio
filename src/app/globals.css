@@ -76,13 +76,16 @@
 .custom-button {
     display: inline-block;
     padding: 12px 22px;
-    color: #fff;
+    color: white;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
-    background-color: #9b6b1f;
+    background-color: #8a6328;
+}
 
-
+.custom-button:hover {
+    background-color: #764b05;
+    color: white;
 }
 
 

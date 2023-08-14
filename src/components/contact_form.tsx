@@ -71,7 +71,7 @@ const ContactForm = () => {
                 </div>
             </div>
             <div className='flex justify-center lg:justify-start'>
-                <button className="getInTouchButton mr-2 mb-4 mt-4">Send Message</button>
+                <button className="custom-button mr-2 mb-4 mt-4">Send Message</button>
             </div>
         </form>
     );

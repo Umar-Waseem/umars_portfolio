@@ -1,11 +1,16 @@
 "use client"
 
+import Link from 'next/link';
 import React from 'react'
 
 export default function ProjectsSection() {
 
   function onSeeProjectsClick (){
     console.log("See Projects Clicked")
+
+    // navigate to route /projects
+
+
   }
 
   return (
@@ -16,7 +21,7 @@ export default function ProjectsSection() {
           Code I have written, Products I have built
         </p>
         <div className='flex lg:flex-row flex-col mt-10 lg:items-start items-center'>
-          <button onClick={onSeeProjectsClick} className='custom-button'>See Projects</button>
+            <Link href={"/projects"} className='custom-button font-semibold'>See Projects</Link>
         </div>
       </div>
     </section>
