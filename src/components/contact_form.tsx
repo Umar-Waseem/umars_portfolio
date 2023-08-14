@@ -10,9 +10,9 @@ const ContactForm = () => {
     return (
         <form action="#" className="w-full">
             {/* make a contact form with name, email and message */}
-            <div className="space-y-8 flex flex-col justify-center">
+            <div className="space-y-4 flex flex-col justify-center">
                 <div >
-                    <label htmlFor="name" className="block lg:text-lg text-sm font-extrabold text-white">
+                    <label htmlFor="name" className="block lg:text-lg text-xs font-extrabold text-white">
                         Name
                     </label>
                     <div className="mt-1">
@@ -27,7 +27,7 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div>
-                    <label htmlFor="email" className="block lg:text-lg text-sm font-extrabold text-white">
+                    <label htmlFor="email" className="block lg:text-lg text-xs font-extrabold text-white">
                         Email
                     </label>
                     <div className="mt-1">
@@ -42,7 +42,7 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div>   
-                    <label htmlFor="briefIntro" className="block lg:text-lg text-sm font-extrabold text-white">
+                    <label htmlFor="briefIntro" className="block lg:text-lg text-xs font-extrabold text-white">
                         Introduce Yourself Briefly
                     </label>
                     <div className="mt-1">
@@ -56,7 +56,7 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div>   
-                    <label htmlFor="message" className="block lg:text-lg text-sm font-extrabold text-white">
+                    <label htmlFor="message" className="block lg:text-lg text-xs font-extrabold text-white">
                         Message
                     </label>
                     <div className="mt-1">
@@ -71,7 +71,7 @@ const ContactForm = () => {
                 </div>
             </div>
             <div className='flex justify-center lg:justify-start'>
-                <button className="custom-button mr-2 mb-4 mt-4">Send Message</button>
+                <button className="custom-button text-xs lg:text-lg mr-2 mb-4 mt-4">Send Message</button>
             </div>
         </form>
     );
